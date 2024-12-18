@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    place-items: center;
+    background-color: #E5E4EA;
+    padding: 20px 0px;
+}
+
+.cv-container {
+    width: 100%;
+    max-width: 300px;
+    background-color: #252E3E;
+}
+
+/* ----------- HEADER --------------*/
+.cv__header {
+    text-align: center;
+}
+
+.cv__header__shortname {
+    color: #AF9661;
+    font-weight: 700;
+    font-size: 0.6rem;
+    padding: 15px 0 5px 0;
+}
+
+.cv__header__fullname {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    line-height: 20px;
+}
+
+.cv__header__career {
+    color: #AF9661;
+    font-weight: 600;
+    font-size: 0.7rem;
+    letter-spacing: 0.7px;
+    padding: 5px 0px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0px;
+}
+
+.cv__header__career .separator {
+    height: 0.002rem;
+    width: 50px;
+    background-color: #AF9661;
+    padding: 0;
+}
+
+.cv__header__info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 1rem;
+    font-family: "Crimson Text", serif;
+}
+
+.cv__header__info div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0px;
+    letter-spacing: 0.1px;
+    gap: 1.5px;
+}
+
+.cv__header__info img {
+    height: 7px;
+}
+
+.cv__header .cv__header__info p {
+    color: white;
+}
+
+.cv__header__info .separator {
+    height: 30px;
+    width: 0.002rem;
+    background-color: #929292;
+}
+/*----------- FIN HEADER ----------------*/
+
+/*------------ INICIO BODY ---------------*/
+
+/* COLUMNA IZQUIERDA */
+.cv__body {
+    display: grid;
+    grid-template-columns: 1.15fr 2fr;
+}
+
+.cv__body article {
+    width: 100%;
+    place-items: center;
+}
+
+.cv__body__about-me {
+    background-color: #EFEFF0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.cv__body__photo-box {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.cv__body__image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0px 25%;
+}
+
+.cv__body__about-me .separator {
+    width: 80%;
+    height: 0.002rem;
+    background-color: #333E50;
+    margin: 5px 0px;
+}
+
+.cv__body h1 {
+    align-self: flex-start;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    font-size: 0.5rem;
+}
+
+.cv__body p {
+    align-self: flex-start;
+    margin: 0 10%;
+    font-size: 0.4rem;
+    letter-spacing: 0.2px;
+    line-height: 1.5;
+    font-family: "Crimson Text", serif;
+}
+
+.cv__body h2 {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 0.4rem;
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+    color: rgb(51, 62, 80);
+    text-transform: uppercase;
+
+    margin: 0 10%;
+}
+
+.cv__body h3 {
+    align-self: flex-start;
+
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-size: 0.4rem;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    color: rgb(175, 150, 97);
+
+    margin: 1.5px 10%;
+}
+
+.cv__body li {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-size: 0.4rem;
+    line-height: 1.5;
+    color: rgb(119, 120, 123);
+
+    margin: 0 10%;
+}
+
+.progress-bar {
+    background-color: #BBBCBE; /* Fondo gris */
+    width: 80%;
+    height: 2px; /* Grosor de la barra */
+    margin: 0 0 6px 0;
+}
+
+.progress {
+    background-color: #AF9661;
+    height: 2px;
+}
+
+/* COLUMNA DERECHA */
+
+.cv__body__skills {
+    background-color: #FFFFFF;
+}
+
+
+.cv__body__skills .separator {
+    width: 85%;
+    height: 0.002rem;
+    background-color: #333E50;
+    margin: 5px 0px;
+}
+
+.cv__body__skills h1 {
+    justify-self: flex-start;
+    margin-left: 7.5%;
+}
+
+.cv__body__skills-grid {
+    display: grid;
+    width: 85%;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.cv__body__skills-grid p {
+    margin: 0;
+    font-size: 0.4rem;
+}
+
+.cv__body__skills-grid .progress-bar {
+    width: 100%;
+}
+
+/*-------------- FIN BODY ----------------*/
