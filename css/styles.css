@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-size: 62.5%;
+    box-sizing: initial;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -15,6 +16,8 @@ body {
     width: 100%;
     max-width: 300px;
     background-color: #252E3E;
+    /*transform: scale(3); /* Ajusta este valor según el tamaño deseado */
+    /*transform-origin: top center; /* Esto asegura que la escala sea desde la parte superior */
 }
 
 /* ----------- HEADER --------------*/
@@ -52,7 +55,7 @@ body {
 }
 
 .cv__header__career .separator {
-    height: 0.002rem;
+    height: 0.5px;
     width: 50px;
     background-color: #AF9661;
     padding: 0;
@@ -87,9 +90,10 @@ body {
 
 .cv__header__info .separator {
     height: 30px;
-    width: 0.002rem;
+    width: 0.05px;
     background-color: #929292;
 }
+
 /*----------- FIN HEADER ----------------*/
 
 /*------------ INICIO BODY ---------------*/
@@ -127,7 +131,7 @@ body {
 
 .cv__body__about-me .separator {
     width: 80%;
-    height: 0.002rem;
+    height: 0.05px;
     background-color: #333E50;
     margin: 5px 0px;
 }
@@ -205,7 +209,7 @@ body {
 
 .cv__body__skills .separator {
     width: 85%;
-    height: 0.002rem;
+    height: 0.05px;
     background-color: #333E50;
     margin: 5px 0px;
 }
