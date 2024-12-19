@@ -231,4 +231,23 @@ body {
     width: 100%;
 }
 
+.cv__body__skills-grid b {
+    font-size: 0.3rem;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-size: 0.4rem;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+}
+
+.cv__body__skills-grid p {
+    font-size: 0.3rem;
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-size: 0.4rem;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
 /*-------------- FIN BODY ----------------*/
